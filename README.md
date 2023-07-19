@@ -32,9 +32,19 @@ pip install -r requirements.txt
 ## Data preparation
 Please follow the instructions as follows to prepare all datasets.
 Datasets list:
-- [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?pli=1&resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)
-- [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/#datasets_code)
-- [VisDA-2017](http://ai.bu.edu/visda-2017/#download)
+- [miniImageNet](https://drive.google.com/drive/u/0/folders/1SEoARH5rADckI-_gZSQRkLclrunL-yb0)
+- [ChestX-ray](https://nihcc.app.box.com/v/ChestXray-NIHCC)
+- [CropDieases](https://data.mendeley.com/datasets/tywbtsjrjv/1)
+- [DeepWeeds](https://github.com/AlexOlsen/DeepWeeds)
+- [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+- [EuroSAT](https://github.com/phelber/eurosat)
+- [Flower102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+- [ISIC](https://challenge.isic-archive.com/landing/2018/)
+- [Kaokore](https://github.com/rois-codh/kaokore)
+- [Omniglot](https://github.com/brendenlake/omniglot)
+- [Resisc45](https://github.com/canturan10/satellighte)
+- [Sketch](https://github.com/HaohanWang/ImageNet-Sketcht)
+- [SVNH](http://ufldl.stanford.edu/housenumbers/)
 
 <hr />
 
