@@ -78,5 +78,5 @@ xxxxxxxxxxxxxxxxxxxxx
 
 ## Acknowledgements
 
-Our code is based on LibFewShot(https://github.com/RL-VIG/LibFewShot) repository. We thank the authors for releasing their code. If you use their model and code, please consider citing these works as well.
+Our code is based on [LibFewShot](https://github.com/RL-VIG/LibFewShot) repository. We thank the authors for releasing their code. If you use their model and code, please consider citing these works as well.
 
