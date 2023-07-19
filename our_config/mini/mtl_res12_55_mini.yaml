@@ -1,0 +1,83 @@
+includes:
+  - headers/data.yaml
+  - headers/device.yaml
+  - headers/misc.yaml
+  - headers/model.yaml
+  - headers/optimizer.yaml
+#! device
+device_ids: 0
+n_gpu: 1
+seed: 0
+deterministic: true
+#! basic
+epoch: 100
+test_epoch: 5
+train_episode: 2000
+test_episode: 600
+episode_size: 4
+shot_num: 5
+way_num: 5
+query_num: 15
+test_shot: 5
+test_way: 5
+test_query: 15
+image_size: 84
+#! data
+use_memory: false
+augment: true
+augment_times: 1
+augment_times_query: 1
+data_root:
+  train: /opt/data/private/FSL_data/miniImageNet--ravi
+  val: /opt/data/private/FSL_data/miniImageNet--ravi
+  test: /opt/data/private/FSL_data/miniImageNet--ravi
+#! optimizer
+lr_scheduler:
+  kwargs:
+    gamma: 1.0
+    step_size: 20
+  name: StepLR
+optimizer:
+  kwargs:
+    lr: 0.005
+  name: Adam
+  other: ~
+#! backbone
+backbone:
+  kwargs:
+    keep_prob: 0.0
+  name: resnet12
+#! MLP layer
+mlp_layer:
+  kwargs: 
+    in_dim: 640
+    hidden_dim: 640
+    out_dim: 640
+  name: Two_MLP_layer
+  use: true
+#! classifier
+classifier:
+  kwargs:
+    feat_dim: 640
+    num_classes: 64
+    inner_param:
+      iter: 10
+    use_MTL: True
+  name: MTL
+#! result
+result_root: ./results
+#! other
+log_test: false
+val_per_epoch: 1
+log_interval: 100
+log_level: info
+log_name: ~
+log_paramerter: false
+pretrain_path: ~
+resume: false
+resume_path: ~
+save_interval: 10
+save_part:
+  - emb_func  
+parallel_part:
+  - emb_func
