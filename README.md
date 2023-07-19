@@ -75,14 +75,5 @@ xxxxxxxxxxxxxxxxxxxxx
 
 ## Acknowledgements
 
-Our code is based on [CoOp and CoCoOp](https://github.com/KaiyangZhou/CoOp), [DAPL](https://github.com/LeapLabTHU/DAPrompt/tree/main) and [MaPLe](https://github.com/muzairkhattak/multimodal-prompt-learning) etc. repository. We thank the authors for releasing their code. If you use their model and code, please consider citing these works as well.
-Supported methods are as follows:
+Our code is based on LibFewShot(https://github.com/RL-VIG/LibFewShot) repository. We thank the authors for releasing their code. If you use their model and code, please consider citing these works as well.
 
-| Method                    | Paper                                         |                             Code                            |  
-|---------------------------|:----------------------------------------------:|:---------------------------------------------------------------:|
-| CoOp                      | [IJCV 2022](https://arxiv.org/abs/2109.01134) |  [link](https://github.com/KaiyangZhou/CoOp)                         |
-| CoCoOp                    | [CVPR 2022](https://arxiv.org/abs/2203.05557) |  [link](https://github.com/KaiyangZhou/CoOp)                         |
-| VPT*                      | [-](https://arxiv.org/abs/2203.17274)         |  [link](https://github.com/hjbahng/visual_prompting)                 |
-| VPT                       | [ECCV 2022](https://arxiv.org/abs/2203.17274) |  [link](https://github.com/KMnP/vpt)                                 |
-| IVLP & MaPLe              | [CVPR 2023](https://arxiv.org/abs/2210.03117) | [link](https://github.com/muzairkhattak/multimodal-prompt-learning)  |
-| DAPL                      | [-](https://arxiv.org/abs/2202.06687)         | [link](https://github.com/LeapLabTHU/DAPrompt)                       |
