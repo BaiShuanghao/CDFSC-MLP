@@ -18,9 +18,9 @@ conda activate pem
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
 
-* Clone APT code repository and install requirements
+* Clone PEM code repository and install requirements
 ```bash
-# Clone APT code base
+# Clone PEM code base
 git clone https://github.com/BaiShuanghao/CDFSC-PEM.git
 
 cd CDFSC-PEM/
@@ -51,19 +51,22 @@ Datasets list:
 
 ## Training and Evaluation
 Please follow the instructions for training, evaluating and reproducing the results.
-Firstly, you need to modify the directory of data.
+Firstly, you can modify the name of cfg file if you need.
 ### Training 
 ```bash
-# trains on Office-Home dataset, and the source domian is art and the target domain is clipart (a-c)
-bash scripts/apt/main_apt.sh officehome b32_ep10_officehome APT ViT-B/16 2 a-c 0
+bash train.sh
 ```
 
 ### Evaluation
 ```bash
-# evaluates on Office-Home dataset, and the source domian is art and the target domain is clipart (a-c)
-bash scripts/apt/eval_apt.sh officehome b32_ep10_officehome APT ViT-B/16 2 a-c 0
+bash test_all.sh
 ```
-The details are at each method folder in [scripts folder](scripts/).
+
+### Resume Training
+```bash
+bash train_resume.sh
+```
+
 <hr />
 
 ## Citation
