@@ -1,7 +1,7 @@
 import os
 import tqdm
 
-root_path = "/opt/data/private/FSL_data/"
+root_path = # your data path
 dataset = [
     'EuroSAT',  # 0
     'Flower102',    # 1
@@ -13,7 +13,7 @@ dataset = [
     'Resisc45', # 7
     'ChestX',   # 8
     'Omniglot', # 9
-    'SVNH', # 10
+    'SVHN', # 10
     'Sketch', # 11
 ]
 index = 8

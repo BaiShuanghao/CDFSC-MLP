@@ -2,12 +2,12 @@ import scipy.io
 import os
 import pandas as pd
 
-data_path = '/home/bsh2022/FSL_Classification_data'
+data_path = # your data path
 
 index = 1
 dataset = [
     'Flower102',
-    'SVNH',
+    'SVHN',
 ]
 mat_file = [
     'imagelabels.mat',

@@ -11,7 +11,7 @@ transform = transforms.Compose([
 ])
 
 # 加载数据集
-data_path = "/opt/data/private/FSL_data/"
+data_path = # your data path
 dataset_name = [
     'EuroSAT',  # 0
     'CropDiseases', # 1
@@ -19,7 +19,7 @@ dataset_name = [
     'Resisc45', # 3
     'Sketch',   # 4
     'Omniglot', # 5
-    'SVNH', # 6
+    'SVHN', # 6
 ]
 index = 4
 dataset = datasets.ImageFolder(root=os.path.join(data_path, dataset_name[index]), transform=transform)

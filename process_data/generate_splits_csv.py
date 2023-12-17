@@ -3,14 +3,13 @@ import os
 import pandas as pd
 import numpy as np
 
-data_path = '/home/bsh2022/FSL_Classification_data'
+data_path = # your data path
 classes = ['train', 'val', 'test']
 dataset_name = [
     'DeepWeeds',
     'ISIC',
     'kaokore',
     'ChestX-ray',
-
 ]
 index = 1
 csv_name = [
@@ -21,8 +20,8 @@ csv_name = [
 ]
 all_csv = os.path.join(data_path, dataset_name[index], csv_name[index])
 class_split = [
-    [3, 1, 5],      # 1-[4, 2, 3]
-    [1, 1, 5],      # 1-[4, 1, 3]
+    [3, 1, 5],     
+    [1, 1, 5],      
     [2, 1, 5],     
     [4, 2, 9],      
 

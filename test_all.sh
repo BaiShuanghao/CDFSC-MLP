@@ -19,7 +19,7 @@ DATASETS=(
     'Omniglot' # 9
     'Resisc45' # 10
     'Sketch' # 11
-    'SVNH' # 12
+    'SVHN' # 12
 )
 
 for ((i=0; i<12; i++));
