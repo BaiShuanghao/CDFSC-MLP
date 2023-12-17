@@ -40,9 +40,7 @@ class Trainer(object):
     """
 
     def __init__(self, rank, config):
-        # wzt:
         self.log_test = config['log_test']
-        ##
         self.rank = rank
         self.config = config
         self.config["rank"] = rank
@@ -92,9 +90,8 @@ class Trainer(object):
                 print(
                     " * Acc@1 {:.3f} Best acc {:.3f}".format(val_acc, self.best_val_acc)
                 )
-            #wzt:
+
             if ((epoch_idx + 1) % self.val_per_epoch) == 0 and self.log_test:
-            ##
                 print("============ Testing on the test set ============")
                 test_acc = self._validate(epoch_idx, is_test=True)
                 print(
@@ -184,14 +181,12 @@ class Trainer(object):
             self.optimizer.zero_grad()
             loss.backward()
             
-            # wzt:
             clip_parameters = []
             for name, param in self.model.named_parameters():
                 if name.split('.')[0] == 'mlp_layer':
                     continue
                 clip_parameters.append(param)
             nn.utils.clip_grad_norm_(clip_parameters, 2.0)
-            ##
             
             # nn.utils.clip_grad_norm_(self.model.parameters(), 2.0)
             for param in self.model.parameters():
@@ -348,7 +343,6 @@ class Trainer(object):
                 mlp_pre = ''
             ##
             
-            # wzt: modify base_dir for multi-dataset setting
             base_dir = "{}-{}-{}-{}-{}-{}".format(
                 config["classifier"]["name"],
                 list(config["data_root"].values())[0].split("/")[-1],
