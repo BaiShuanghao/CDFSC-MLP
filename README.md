@@ -44,7 +44,7 @@ Datasets list:
 - [Kaokore](https://github.com/rois-codh/kaokore)
 - [Omniglot](https://github.com/brendenlake/omniglot)
 - [Resisc45](https://github.com/canturan10/satellighte)
-- [Sketch](https://github.com/HaohanWang/ImageNet-Sketcht)
+- [Sketch](https://github.com/HaohanWang/ImageNet-Sketch)
 - [SVHN](http://ufldl.stanford.edu/housenumbers/)
 
 You need to put all images in one folder namely **images**
