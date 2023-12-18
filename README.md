@@ -1,4 +1,4 @@
-# Improving Cross-domain Few-shot Classification with Multilayer Perceptron
+# Improving Cross-domain Few-shot Classification with Multilayer Perceptron [ICASSP 2024]
 
 Official implementation of the paper "[Improving Cross-domain Few-shot Classification with Multilayer Perceptron](https://arxiv.org/abs/2312.09589)".
 <hr />
