@@ -80,7 +80,7 @@ bash train_resume.sh
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
-@inproceedings{bai2024improve,
+@inproceedings{bai2024improving,
   title={Improving Cross-domain Few-shot Classification with Multilayer Perceptron},
   author={Bai, Shuanghao and Zhou, Wanqi and Luan, Zhirong and Wang, Donglin and Chen Badong},
   booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
