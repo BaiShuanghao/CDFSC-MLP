@@ -1,6 +1,6 @@
 # Improving Cross-domain Few-shot Classification with Multilayer Perceptron
 
-Official implementation of the paper "[Improving Cross-domain Few-shot Classification with Multilayer Perceptron](arXiv网站)".
+Official implementation of the paper "[Improving Cross-domain Few-shot Classification with Multilayer Perceptron](https://arxiv.org/abs/2312.09589)".
 <hr />
 
 ## Installation 
