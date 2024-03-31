@@ -1,4 +1,4 @@
-# Improving Cross-domain Few-shot Classification with Multilayer Perceptron [ICASSP 2024]
+# Improving Cross-domain Few-shot Classification with Multilayer Perceptron [[ICASSP 2024](https://ieeexplore.ieee.org/abstract/document/10447065)]
 
 Official implementation of the paper "[Improving Cross-domain Few-shot Classification with Multilayer Perceptron](https://arxiv.org/abs/2312.09589)".
 <hr />
@@ -82,8 +82,9 @@ If you use our work, please consider citing:
 ```bibtex
 @inproceedings{bai2024improving,
   title={Improving Cross-domain Few-shot Classification with Multilayer Perceptron},
-  author={Bai, Shuanghao and Zhou, Wanqi and Luan, Zhirong and Wang, Donglin and Chen Badong},
+  author={Bai, Shuanghao and Zhou, Wanqi and Luan, Zhirong and Wang, Donglin and Chen, Badong},
   booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={5250--5254},
   year={2024},
   organization={IEEE}
 }
