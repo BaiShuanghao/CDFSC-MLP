@@ -20,7 +20,7 @@ conda activate cdfsc_mlp
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
 
-* Clone PEM code repository and install requirements
+* Clone CDFSC-MLP code repository and install requirements
 ```bash
 # Clone PEM code base
 git clone https://github.com/BaiShuanghao/CDFSC-MLP.git
