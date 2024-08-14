@@ -6,8 +6,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-cross-domain-few-shot/cross-domain-few-shot-on-eurosat)](https://paperswithcode.com/sota/cross-domain-few-shot-on-eurosat?p=improving-cross-domain-few-shot)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2312.09589-b31b1b.svg)](https://arxiv.org/abs/2312.09589)
-![GitHub stars](https://img.shields.io/github/stars/BaiShuanghao/Prompt-based-Distribution-Alignment)
-![GitHub forks](https://img.shields.io/github/forks/BaiShuanghao/Prompt-based-Distribution-Alignment)
+![GitHub stars](https://img.shields.io/github/stars/BaiShuanghao/CDFSC-MLP)
+![GitHub forks](https://img.shields.io/github/forks/BaiShuanghao/CDFSC-MLP)
 
 Official implementation of the paper "[Improving Cross-domain Few-shot Classification with Multilayer Perceptron](https://arxiv.org/abs/2312.09589)".
 
