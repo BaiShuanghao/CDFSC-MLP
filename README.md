@@ -88,7 +88,7 @@ Then, you need to put these split files in each corresponding dataset folder for
 
 ## Training and Evaluation
 Please follow the instructions for training, evaluating, and reproducing the results.
-Firstly, you can modify the name of cfg file if you need.
+Firstly, you can modify the name of the CFG file that trains on different models. These CFG files are in [our_config](our_config).
 ### Training 
 ```bash
 bash train.sh
@@ -104,7 +104,6 @@ bash test_all.sh
 bash train_resume.sh
 ```
 
-<hr />
 
 ## Citation
 If our code is helpful to your research or projects, please consider citing:
@@ -123,9 +122,10 @@ If our code is helpful to your research or projects, please consider citing:
 ## Contact
 If you have any questions, please create an issue on this repository or contact at baishuanghao@stu.xjtu.edu.cn.
 
+
 ## Acknowledgements
 
-Our code is based on [LibFewShot](https://github.com/RL-VIG/LibFewShot) repository. We thank the authors for releasing their code. If you use their and code, please consider citing their work as well.
+Our code is based on [LibFewShot](https://github.com/RL-VIG/LibFewShot) repository. We thank the authors for releasing their code. If you use their code, please consider citing their work as well.
 
 ```bibtex
 @article{li2021LibFewShot,
